@@ -51,6 +51,19 @@ mongosh --version
   - Basic commands
   - Database and collection operations
 
+### Day 2: CRUD Operations
+- [Day 2: CRUD Operations](./day_002/README.md)
+  - Insert one/many, find/findOne with projection
+  - Update one/many with $set
+  - Delete one/many, bulk operations, common mistakes
+
+### Day 3: Query Methods & Operators
+- [Day 3: Query Methods & Operators](./day_003/README.md)
+  - Cursor methods: limit, skip, sort
+  - Logical operators: $and, $or, $not, $nor
+  - $expr usage (computed comparisons)
+  - Element & array operators: $exists, $type, $size, $elemMatch, $all
+
 ## 📚 Resources
 
 ### Documentation
