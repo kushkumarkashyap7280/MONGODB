@@ -17,16 +17,20 @@
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 - [MongoDB Community Server](https://www.mongodb.com/try/download/community)
 - [MongoDB Shell (mongosh)](https://www.mongodb.com/try/download/shell)
 - [Node.js](https://nodejs.org/) (v16+ recommended)
 
 ### Installation
+
 1. **Windows**:
+
    - Download and run the MSI installer from [MongoDB Download Center](https://www.mongodb.com/try/download/community)
    - Follow the installation wizard
 
 2. **macOS**:
+
    ```bash
    brew tap mongodb/brew
    brew install mongodb-community
@@ -38,6 +42,7 @@
    ```
 
 ### Verify Installation
+
 ```bash
 mongod --version
 mongosh --version
@@ -46,34 +51,78 @@ mongosh --version
 ## 📅 Learning Path
 
 ### Day 1: Getting Started
+
 - [Day 1: Setup & Basics](./day_001/README.md)
   - MongoDB installation
   - Basic commands
   - Database and collection operations
 
 ### Day 2: CRUD Operations
+
 - [Day 2: CRUD Operations](./day_002/README.md)
   - Insert one/many, find/findOne with projection
   - Update one/many with $set
   - Delete one/many, bulk operations, common mistakes
 
 ### Day 3: Query Methods & Operators
+
 - [Day 3: Query Methods & Operators](./day_003/README.md)
   - Cursor methods: limit, skip, sort
   - Logical operators: $and, $or, $not, $nor
   - $expr usage (computed comparisons)
   - Element & array operators: $exists, $type, $size, $elemMatch, $all
 
+### Day 4: Advanced Querying & Projections
+
+- [Day 4: Advanced Querying & Projections](./day_004/README.md)
+  - Projection techniques and field selection
+  - Embedded document queries with dot notation
+  - Array querying with $size, $all, $elemMatch
+  - Update operations: updateOne, updateMany
+  - Field renaming with $rename and deletion with $unset
+
+### Day 5: Indexing & Performance
+
+- [Day 5: Indexing & Performance](./day_005/README.md)
+  - Query performance analysis with explain()
+  - Understanding COLLSCAN vs IXSCAN
+  - Creating and managing indexes
+  - Index types: single field, compound, text, partial
+  - Best practices for when to use/avoid indexes
+
+### Day 6: Aggregation Framework
+
+- [Day 6: Aggregation Framework](./day_006/README.md)
+  - Complete aggregation pipeline operators reference
+  - Stage operators: $match, $project, $group, $sort, $limit, $lookup
+  - Expression operators: arithmetic, comparison, logical, string, date, array
+  - Advanced patterns: optimization, conditional aggregation, faceted search
+  - Best practices and performance considerations
+
+## 🎯 **What You'll Learn:**
+
+By completing this 6-day MongoDB journey, you'll master:
+
+- **Database Fundamentals**: Setup, CRUD operations, and basic querying
+- **Advanced Querying**: Complex filters, projections, and embedded document queries
+- **Performance Optimization**: Indexing strategies and query performance analysis
+- **Data Aggregation**: Complete aggregation framework with real-world patterns
+- **Production Best Practices**: Error handling, security, and optimization techniques
+
+## 🏆 **Course Completion:**
+
+This series covers all essential MongoDB concepts needed for production applications. After completing all 6 days, you'll be equipped to build robust, scalable applications with MongoDB.
+
 ## 📚 Resources
 
 ### Documentation
+
 - [MongoDB Manual](https://docs.mongodb.com/manual/)
 - [MongoDB University](https://university.mongodb.com/)
 - [MongoDB Blog](https://www.mongodb.com/blog)
 
-
-
 ### Tools
+
 - [MongoDB Compass](https://www.mongodb.com/products/compass) - GUI for MongoDB
 - [MongoDB Charts](https://www.mongodb.com/products/charts) - Data visualization
 - [MongoDB Database Tools](https://www.mongodb.com/try/download/database-tools) - Command-line tools
